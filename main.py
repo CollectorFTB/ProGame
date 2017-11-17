@@ -1,15 +1,9 @@
-from kivy.app import App
-from kivy.uix.button import Button
-
-
-class TestApp(App):
-    def build(self):
-        return Button(text='Hello World')
+import graphics
 
 
 def main():
-    TestApp().run()
-    print 15
+    graphics.configure()
+    return graphics.GameApp().run()
 
 if __name__ == "__main__":
     main()
