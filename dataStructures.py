@@ -1,4 +1,19 @@
 from util import *
+from kivy.app import App
+from kivy.uix.image import Image
+from kivy.config import Config
+from kivy.core.window import Window
+from kivy.clock import Clock
+from kivy.uix.floatlayout import FloatLayout
+from functools import partial
+from util import file_path
+
+
+class NormImage(Image):
+    def __init__(self, **kwargs):
+        super(NormImage, self).__init__(**kwargs)
+        self.rx = kwargs['x']  # real world x
+        self.ry = kwargs['y']  # real world y
 
 
 class Fraction:
