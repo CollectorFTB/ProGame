@@ -29,7 +29,6 @@ class Fraction:
             re = Fraction(self.numerator + other*self.denominator, self.denominator)
         elif isinstance(other, Fraction):
             lcm = (self.denominator * other.denominator) / gcd(self.denominator, other.denominator)
-            print lcm
             re = Fraction((lcm / self.denominator) * self.numerator + (lcm / other.denominator) * other.numerator, lcm)
         return re
 
