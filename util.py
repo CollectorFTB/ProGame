@@ -6,3 +6,6 @@ def gcd(a, b):
         return b
 
     return gcd(b, a % b)
+
+def file_path(file_name):
+    return "Entities//" + file_name
