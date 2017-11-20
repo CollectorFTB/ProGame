@@ -6,6 +6,7 @@ from kivy.uix.floatlayout import FloatLayout
 from functools import partial
 from util import *
 from dataStructures import NormImage
+import os.path
 
 import cv2
 # from copy import copy
@@ -42,8 +43,10 @@ class ProGame(FloatLayout):
         self.keyboard = Window.request_keyboard(self.keyboard_closed, self)
         self.keyboard.bind(on_key_down=self.on_keyboard_down)
 
-        # background = create_background(WIDTH, HEIGHT, 1)
-        # cv2.imwrite(file_path('white'+str(HEIGHT)+'.png'), background)
+        # If background doesnt exist, create it
+        if not os.path.exists('Entities/white'+str(HEIGHT)+'.png'):
+            background = create_background(WIDTH, HEIGHT, 1)
+            cv2.imwrite(file_path('white'+str(HEIGHT)+'.png'), background)
 
         # White background (temporary)
         self.add_image(file_path('white'+str(HEIGHT)+'.png'), 0, 0)
@@ -95,7 +98,7 @@ class ProGame(FloatLayout):
         self.down = True
         if image_collide(touch, self.close_button):
             App.get_running_app().stop()
-        # Clock.schedule_once(partial(self.add_image, file_path("xd.png"), touch.x, touch.y))
+        Clock.schedule_once(partial(self.add_image, file_path("xd.png"), touch.x, touch.y))
 
     def on_touch_up(self, touch):
         self.down = False
