@@ -1,12 +1,5 @@
 from util import *
-from kivy.app import App
 from kivy.uix.image import Image
-from kivy.config import Config
-from kivy.core.window import Window
-from kivy.clock import Clock
-from kivy.uix.floatlayout import FloatLayout
-from functools import partial
-from util import file_path
 
 
 class NormImage(Image):

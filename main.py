@@ -2,9 +2,11 @@ import graphics
 
 
 def main():
-    graphics.configure(0)
+    mode = 1
+    graphics.configure(mode)
     app = graphics.GameApp()
-    return app.run()
+    app.run()
+
 
 if __name__ == "__main__":
     main()

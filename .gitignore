@@ -1,5 +1,5 @@
 .idea
 App
-_pycache_
+__pycache__
 graphics.pyc
 util.pyc
