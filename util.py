@@ -1,7 +1,16 @@
 import numpy
+from dataStructures import NormImage
 
 
 def gcd(a, b):
+    """
+    gcd(54,24)=6
+    gcd(7,15)=1
+    gcd(4,8)=4
+    :param a: integer 
+    :param b: integer
+    :return: returns the greatest common divisor of a and b
+    """
     if b > a:
         return gcd(b, a)
 
@@ -12,6 +21,11 @@ def gcd(a, b):
 
 
 def file_path(file_name):
+    """
+    finds the file path inside the project directory
+    :param file_name: a specific file name (has to be inside the directory Entities
+    :return: path inside the main directory to the file specified 
+    """
     return "Entities//" + file_name
 
 
@@ -27,9 +41,9 @@ def make_grid(img, n):
 
 def create_background(width, height, color):
     """
-    
-    :param width: width of picture
-    :param height: height of picture
+    makes a uniform picture in certain color
+    :param width: width of desired picture
+    :param height: height of desired picture
     :param color: 0=black, 1=white, 2=transparent
     :return: numpy array of an image in requested color
     """
@@ -45,6 +59,30 @@ def create_background(width, height, color):
 
 
 def image_collide(touch, image):
+    """
+    checks if the touch object collides with the image given
+    :param touch: certain click
+    :param image: specific image
+    :return: whether or not the image
+    """
     x_collide = image.rx < touch.x < image.rx + image.texture.size[0]
     y_collide = image.ry < touch.y < image.ry + image.texture.size[1]
     return x_collide and y_collide
+
+
+def all_image_collide(touch, children):
+    """
+    checks if the touch object collides with the image given
+    :param touch: certain click
+    :param children: list of images
+    :return: all the images in children that collide with touch
+    """
+    re = list()
+    for image in children:
+        if not isinstance(image, NormImage):
+            continue
+        x_collide = image.rx < touch.x < image.rx + image.texture.size[0]
+        y_collide = image.ry < touch.y < image.ry + image.texture.size[1]
+        if x_collide and y_collide:
+            re.append(image)
+    return re
