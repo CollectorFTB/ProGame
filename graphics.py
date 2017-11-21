@@ -7,7 +7,6 @@ from functools import partial
 from util import *
 from dataStructures import NormImage
 import os.path
-
 import cv2
 # from copy import copy
 # import random
@@ -77,7 +76,7 @@ class ProGame(FloatLayout):
     def on_keyboard_down(self, keyboard, keycode, text, modifiers):
         self.last_clicked = keycode
         print(keycode)
-        if keycode[1] == 'd' and list(modifiers).count("ctrl") == 1 and list(modifiers).count("alt") == 1:
+        if list(modifiers).count("ctrl") == 1 and list(modifiers).count("alt") == 1 and keycode[1] == 'd':
             keyboard.release()
         return True
 

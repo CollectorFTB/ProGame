@@ -1,0 +1,1394 @@
+('D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame',
+ None,
+ [],
+ 'DATA',
+ [('.gitignore',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\.gitignore',
+   'DATA'),
+  ('dataStructures.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\dataStructures.py',
+   'DATA'),
+  ('graphics.py',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\graphics.py',
+   'DATA'),
+  ('graphics.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\graphics.pyc',
+   'DATA'),
+  ('main.py',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\main.py',
+   'DATA'),
+  ('README.md',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\README.md',
+   'DATA'),
+  ('util.py',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\util.py',
+   'DATA'),
+  ('util.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\util.pyc',
+   'DATA'),
+  ('__pycache__\\dataStructures.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\__pycache__\\dataStructures.cpython-36.pyc',
+   'DATA'),
+  ('__pycache__\\graphics.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\__pycache__\\graphics.cpython-36.pyc',
+   'DATA'),
+  ('__pycache__\\main.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\__pycache__\\main.cpython-36.pyc',
+   'DATA'),
+  ('__pycache__\\util.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\__pycache__\\util.cpython-36.pyc',
+   'DATA'),
+  ('Entities\\fileclose.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\Entities\\fileclose.png',
+   'DATA'),
+  ('Entities\\grid.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\Entities\\grid.png',
+   'DATA'),
+  ('Entities\\white1080.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\Entities\\white1080.png',
+   'DATA'),
+  ('Entities\\white720.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\Entities\\white720.png',
+   'DATA'),
+  ('Entities\\xd.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\Entities\\xd.png',
+   'DATA'),
+  ('App\\XDGame.spec',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\XDGame.spec',
+   'DATA'),
+  ('App\\dist\\XDGame\\base_library.zip',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\base_library.zip',
+   'DATA'),
+  ('App\\dist\\XDGame\\cv2.cv2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\cv2.cv2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\glew32.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\glew32.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.audio.audio_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.audio.audio_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.clipboard._clipboard_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.clipboard._clipboard_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.image._img_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.image._img_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.text.text_layout.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.text.text_layout.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.text._text_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.text._text_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.core.window._window_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.core.window._window_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.buffer.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.buffer.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_debug.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_debug.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_gl.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_gl.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_glew.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_glew.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_mock.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_mock.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_sdl2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.cgl_backend.cgl_sdl2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.compiler.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.compiler.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.context.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.context.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.context_instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.context_instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.fbo.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.fbo.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.gl_instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.gl_instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.opengl.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.opengl.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.opengl_utils.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.opengl_utils.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.scissor_instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.scissor_instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.shader.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.shader.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.stencil_instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.stencil_instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.svg.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.svg.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.tesselator.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.tesselator.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.texture.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.texture.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.transformation.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.transformation.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.vbo.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.vbo.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.vertex.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.vertex.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.graphics.vertex_instructions.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.graphics.vertex_instructions.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.lib.gstplayer._gstplayer.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.lib.gstplayer._gstplayer.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.properties.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.properties.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy.weakproxy.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy.weakproxy.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy._clock.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy._clock.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy._event.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy._event.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\libfreetype-6.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\libfreetype-6.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\libopenblas_v0.2.20_mingwpy.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\libopenblas_v0.2.20_mingwpy.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\mfc140u.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\mfc140u.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.core.multiarray.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.core.multiarray.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.core.umath.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.core.umath.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.fft.fftpack_lite.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.fft.fftpack_lite.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.linalg.lapack_lite.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.linalg.lapack_lite.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.linalg._umath_linalg.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.linalg._umath_linalg.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\numpy.random.mtrand.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\numpy.random.mtrand.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\pyexpat.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\pyexpat.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\python3.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\python3.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\python36.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\python36.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\pythoncom36.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\pythoncom36.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\pywintypes36.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\pywintypes36.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\SDL2.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\SDL2.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\SDL2_image.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\SDL2_image.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\SDL2_mixer.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\SDL2_mixer.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\SDL2_ttf.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\SDL2_ttf.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\select.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\select.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\unicodedata.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\unicodedata.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\VCRUNTIME140.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\VCRUNTIME140.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32api.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32api.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32com.shell.shell.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32com.shell.shell.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32file.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32file.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32gui.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32gui.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32pdh.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32pdh.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32trace.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32trace.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32ui.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32ui.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\win32wnet.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\win32wnet.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\XDGame.exe',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\XDGame.exe',
+   'DATA'),
+  ('App\\dist\\XDGame\\XDGame.exe.manifest',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\XDGame.exe.manifest',
+   'DATA'),
+  ('App\\dist\\XDGame\\zlib1.dll',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\zlib1.dll',
+   'DATA'),
+  ('App\\dist\\XDGame\\_bz2.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_bz2.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_ctypes.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_ctypes.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_decimal.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_decimal.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_elementtree.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_elementtree.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_hashlib.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_hashlib.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_lzma.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_lzma.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_multiprocessing.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_multiprocessing.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_socket.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_socket.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_ssl.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_ssl.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\_win32sysloader.pyd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\_win32sysloader.pyd',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\Grammar.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\Grammar.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\Grammar3.6.2.candidate.2.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\Grammar3.6.2.candidate.2.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\Grammar3.6.2.final.0.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\Grammar3.6.2.final.0.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\Grammar3.6.3.candidate.1.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\Grammar3.6.3.candidate.1.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\Grammar3.6.3.final.0.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\Grammar3.6.3.final.0.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\PatternGrammar.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\PatternGrammar.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.2.candidate.2.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.2.candidate.2.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.2.final.0.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.2.final.0.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.3.candidate.1.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.3.candidate.1.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.3.final.0.pickle',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\PatternGrammar3.6.3.final.0.pickle',
+   'DATA'),
+  ('App\\dist\\XDGame\\lib2to3\\tests\\data\\README',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\lib2to3\\tests\\data\\README',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\console.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\console.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\cursor.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\cursor.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\inspector.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\inspector.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\joycursor.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\joycursor.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\keybinding.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\keybinding.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\monitor.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\monitor.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\recorder.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\recorder.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\screen.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\screen.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\touchring.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\touchring.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\webdebugger.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\webdebugger.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\_webdebugger.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\_webdebugger.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__init__.py',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__init__.py',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\console.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\console.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\cursor.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\cursor.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\inspector.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\inspector.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\joycursor.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\joycursor.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\keybinding.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\keybinding.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\monitor.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\monitor.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\recorder.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\recorder.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\screen.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\screen.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\touchring.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\touchring.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\webdebugger.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\webdebugger.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\_webdebugger.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\_webdebugger.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\__init__.cpython-36.pyc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\modules\\__pycache__\\__init__.cpython-36.pyc',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\settings_kivy.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\settings_kivy.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\style.kv',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\style.kv',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-128.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-128.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-16.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-16.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-24.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-24.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-256.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-256.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-32.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-32.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-48.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-48.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-512.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-512.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-64.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\logo\\kivy-icon-64.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\azerty.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\azerty.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\de.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\de.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\de_CH.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\de_CH.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\en_US.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\en_US.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\fr_CH.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\fr_CH.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\qwerty.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\qwerty.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\keyboards\\qwertz.json',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\keyboards\\qwertz.json',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\background.jpg',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\background.jpg',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\cursor.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\cursor.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\defaulttheme-0.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\defaulttheme-0.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\defaulttheme.atlas',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\defaulttheme.atlas',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\image-loading.gif',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\image-loading.gif',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\images\\testpattern.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\images\\testpattern.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.fs',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.fs',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.png',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.png',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.vs',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\glsl\\default.vs',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\glsl\\header.fs',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\glsl\\header.fs',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\glsl\\header.vs',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\glsl\\header.vs',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\DejaVuSans.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\DejaVuSans.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Bold.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Bold.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Italic.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Italic.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Regular.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\Roboto-Regular.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\kivy_install\\data\\fonts\\RobotoMono-Regular.ttf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\kivy_install\\data\\fonts\\RobotoMono-Regular.ttf',
+   'DATA'),
+  ('App\\dist\\XDGame\\Include\\pyconfig.h',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\Include\\pyconfig.h',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\README.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\README.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\blank.gif',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\blank.gif',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\iepngfix.htc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\iepngfix.htc',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\pep_html\\pep.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\pep_html\\pep.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\pep_html\\template.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\pep_html\\template.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\odf_odt\\styles.odt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\odf_odt\\styles.odt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\latex2e\\default.tex',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\latex2e\\default.tex',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\latex2e\\titlepage.tex',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\latex2e\\titlepage.tex',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\latex2e\\xelatex.tex',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\latex2e\\xelatex.tex',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\math.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\math.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\minimal.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\minimal.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\plain.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\plain.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\template.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html5_polyglot\\template.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html4css1\\html4css1.css',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html4css1\\html4css1.css',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\writers\\html4css1\\template.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\writers\\html4css1\\template.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamso.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamso.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isobox.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isobox.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isodia.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isodia.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isolat1.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isolat1.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isolat2.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isolat2.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomopf.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomopf.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomscr.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isomscr.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isonum.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isonum.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isopub.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isopub.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isotech.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\isotech.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\README.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\README.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\s5defs.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\s5defs.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'DATA'),
+  ('App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\dist\\XDGame\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'DATA'),
+  ('App\\build\\XDGame\\base_library.zip',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\base_library.zip',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-Analysis.toc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-Analysis.toc',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-COLLECT.toc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-COLLECT.toc',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-EXE.toc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-EXE.toc',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-PKG.pkg',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-PKG.pkg',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-PKG.toc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-PKG.toc',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-PYZ.pyz',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-PYZ.pyz',
+   'DATA'),
+  ('App\\build\\XDGame\\out00-PYZ.toc',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\out00-PYZ.toc',
+   'DATA'),
+  ('App\\build\\XDGame\\warnXDGame.txt',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\warnXDGame.txt',
+   'DATA'),
+  ('App\\build\\XDGame\\XDGame.exe',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\XDGame.exe',
+   'DATA'),
+  ('App\\build\\XDGame\\XDGame.exe.manifest',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\XDGame.exe.manifest',
+   'DATA'),
+  ('App\\build\\XDGame\\xref-XDGame.html',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\App\\build\\XDGame\\xref-XDGame.html',
+   'DATA'),
+  ('.idea\\misc.xml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\misc.xml',
+   'DATA'),
+  ('.idea\\modules.xml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\modules.xml',
+   'DATA'),
+  ('.idea\\ProGame.iml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\ProGame.iml',
+   'DATA'),
+  ('.idea\\vcs.xml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\vcs.xml',
+   'DATA'),
+  ('.idea\\workspace.xml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\workspace.xml',
+   'DATA'),
+  ('.idea\\dictionaries\\gilad.xml',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.idea\\dictionaries\\gilad.xml',
+   'DATA'),
+  ('.git\\COMMIT_EDITMSG',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\COMMIT_EDITMSG',
+   'DATA'),
+  ('.git\\config',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\.git\\config',
+   'DATA'),
+  ('.git\\description',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\description',
+   'DATA'),
+  ('.git\\FETCH_HEAD',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\FETCH_HEAD',
+   'DATA'),
+  ('.git\\HEAD',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\.git\\HEAD',
+   'DATA'),
+  ('.git\\index',
+   'D:\\Desktop shortcuts\\Collection\\Python Projects\\ProGame\\.git\\index',
+   'DATA'),
+  ('.git\\ORIG_HEAD',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\ORIG_HEAD',
+   'DATA'),
+  ('.git\\refs\\remotes\\origin\\master',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\refs\\remotes\\origin\\master',
+   'DATA'),
+  ('.git\\refs\\heads\\master',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\refs\\heads\\master',
+   'DATA'),
+  ('.git\\objects\\fc\\e7a94798348d0ad6f22f23b8493929f6e91dc2',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\fc\\e7a94798348d0ad6f22f23b8493929f6e91dc2',
+   'DATA'),
+  ('.git\\objects\\fb\\a12240e048f35c1b7cfeb720b595717142656a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\fb\\a12240e048f35c1b7cfeb720b595717142656a',
+   'DATA'),
+  ('.git\\objects\\f9\\f33fd6d4d5ce065d7fc15e3abebe88974fe888',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\f9\\f33fd6d4d5ce065d7fc15e3abebe88974fe888',
+   'DATA'),
+  ('.git\\objects\\f6\\c5ef3e981210581868ff76bc3a8eacb78ad893',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\f6\\c5ef3e981210581868ff76bc3a8eacb78ad893',
+   'DATA'),
+  ('.git\\objects\\e6\\9de29bb2d1d6434b8b29ae775ad8c2e48c5391',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\e6\\9de29bb2d1d6434b8b29ae775ad8c2e48c5391',
+   'DATA'),
+  ('.git\\objects\\e4\\ee180326771f8eee99f91537ac9ac5c8ad476f',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\e4\\ee180326771f8eee99f91537ac9ac5c8ad476f',
+   'DATA'),
+  ('.git\\objects\\df\\3739926c73cbb67388acf6df845c9cc4382a80',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\df\\3739926c73cbb67388acf6df845c9cc4382a80',
+   'DATA'),
+  ('.git\\objects\\df\\3d5dfc2cd1848de4a182df89bfe0c5c27e69ad',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\df\\3d5dfc2cd1848de4a182df89bfe0c5c27e69ad',
+   'DATA'),
+  ('.git\\objects\\df\\fe5e44c3318dbc591e374aec8dd4d7bb5d4f6b',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\df\\fe5e44c3318dbc591e374aec8dd4d7bb5d4f6b',
+   'DATA'),
+  ('.git\\objects\\de\\3b1e0667142aa735391b3fa73d185486b0572e',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\de\\3b1e0667142aa735391b3fa73d185486b0572e',
+   'DATA'),
+  ('.git\\objects\\da\\895b12d6328c892f2d482aafd4839ac2479852',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\da\\895b12d6328c892f2d482aafd4839ac2479852',
+   'DATA'),
+  ('.git\\objects\\d9\\6610942b316e7b7aa700d821f7c5610930299a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\d9\\6610942b316e7b7aa700d821f7c5610930299a',
+   'DATA'),
+  ('.git\\objects\\d0\\886860f7dd7e159d73e66ccbe146e96af800ae',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\d0\\886860f7dd7e159d73e66ccbe146e96af800ae',
+   'DATA'),
+  ('.git\\objects\\d0\\dce0156b544639723a095b5475c2e9734ed1bd',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\d0\\dce0156b544639723a095b5475c2e9734ed1bd',
+   'DATA'),
+  ('.git\\objects\\c0\\883e4de3d0f1d30d62444965ca7cce55641e6f',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\c0\\883e4de3d0f1d30d62444965ca7cce55641e6f',
+   'DATA'),
+  ('.git\\objects\\bd\\8ab7afe2748201ec579de66e8b21dd11d1847c',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\bd\\8ab7afe2748201ec579de66e8b21dd11d1847c',
+   'DATA'),
+  ('.git\\objects\\b3\\37ce6f93e294cbfa0976c55a35df7c123895df',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\b3\\37ce6f93e294cbfa0976c55a35df7c123895df',
+   'DATA'),
+  ('.git\\objects\\b2\\cb3d39c88e0c80dcdfb421c2cdd28be046f5a3',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\b2\\cb3d39c88e0c80dcdfb421c2cdd28be046f5a3',
+   'DATA'),
+  ('.git\\objects\\ae\\a813750d3c8c8f38b810aa6a2d82aca40ac165',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\ae\\a813750d3c8c8f38b810aa6a2d82aca40ac165',
+   'DATA'),
+  ('.git\\objects\\a9\\99339bd4664d0409f6127ad87b17701ab5f78d',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\a9\\99339bd4664d0409f6127ad87b17701ab5f78d',
+   'DATA'),
+  ('.git\\objects\\a5\\353cd3e570c5ed94510a52466e5d61f0613fbf',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\a5\\353cd3e570c5ed94510a52466e5d61f0613fbf',
+   'DATA'),
+  ('.git\\objects\\a3\\587077bb0adbe5c03ee9e9de5985bb436d8c2a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\a3\\587077bb0adbe5c03ee9e9de5985bb436d8c2a',
+   'DATA'),
+  ('.git\\objects\\9a\\2176111e3a3430800385a376dfdd956f5b270a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\9a\\2176111e3a3430800385a376dfdd956f5b270a',
+   'DATA'),
+  ('.git\\objects\\99\\0948574e57fc9af9501227560d3e13b706e78b',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\99\\0948574e57fc9af9501227560d3e13b706e78b',
+   'DATA'),
+  ('.git\\objects\\97\\e55adab506429deef9542050820b9186127659',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\97\\e55adab506429deef9542050820b9186127659',
+   'DATA'),
+  ('.git\\objects\\94\\a25f7f4cb416c083d265558da75d457237d671',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\94\\a25f7f4cb416c083d265558da75d457237d671',
+   'DATA'),
+  ('.git\\objects\\94\\e3e2d9ed79e259b712a98f9fe0d7955e9a8e35',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\94\\e3e2d9ed79e259b712a98f9fe0d7955e9a8e35',
+   'DATA'),
+  ('.git\\objects\\93\\716dc65adc7cf52e537bc80fc80c0a05ba5e29',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\93\\716dc65adc7cf52e537bc80fc80c0a05ba5e29',
+   'DATA'),
+  ('.git\\objects\\8f\\601ed07ab871dbff199118961a9f7ef82e5dad',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\8f\\601ed07ab871dbff199118961a9f7ef82e5dad',
+   'DATA'),
+  ('.git\\objects\\8f\\7bf33de11c4147b2309bd1c4fa7d5d0bafe056',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\8f\\7bf33de11c4147b2309bd1c4fa7d5d0bafe056',
+   'DATA'),
+  ('.git\\objects\\82\\1297ba0c4f6daab8f3f26007f1cba0566e9e5a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\82\\1297ba0c4f6daab8f3f26007f1cba0566e9e5a',
+   'DATA'),
+  ('.git\\objects\\82\\cb9dd7a1e3bb26cad9d1b9d05df75dcc5e0217',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\82\\cb9dd7a1e3bb26cad9d1b9d05df75dcc5e0217',
+   'DATA'),
+  ('.git\\objects\\7d\\ca88abca31a1f8bda678de9799326b30192db5',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\7d\\ca88abca31a1f8bda678de9799326b30192db5',
+   'DATA'),
+  ('.git\\objects\\7b\\938dcb3c296f24aec69e3b5aa054c07b770e46',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\7b\\938dcb3c296f24aec69e3b5aa054c07b770e46',
+   'DATA'),
+  ('.git\\objects\\76\\6ae220160fa57645117696f986cd011c84e878',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\76\\6ae220160fa57645117696f986cd011c84e878',
+   'DATA'),
+  ('.git\\objects\\67\\11606311e2664bd835f92b5c114681d2e284f5',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\67\\11606311e2664bd835f92b5c114681d2e284f5',
+   'DATA'),
+  ('.git\\objects\\67\\8f4361ac9700788b5c0310081ff1a71a3a0ab0',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\67\\8f4361ac9700788b5c0310081ff1a71a3a0ab0',
+   'DATA'),
+  ('.git\\objects\\64\\3e42ebdab8c690d0430e56ded812104cde317c',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\64\\3e42ebdab8c690d0430e56ded812104cde317c',
+   'DATA'),
+  ('.git\\objects\\62\\124954360628e2cd51b2f566278cedc3db3224',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\62\\124954360628e2cd51b2f566278cedc3db3224',
+   'DATA'),
+  ('.git\\objects\\62\\aed4d335a78c4d9d639f405e36faf40a27f25e',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\62\\aed4d335a78c4d9d639f405e36faf40a27f25e',
+   'DATA'),
+  ('.git\\objects\\5e\\e37f3d73c04befb6a09600dfe15cf9bda9a225',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\5e\\e37f3d73c04befb6a09600dfe15cf9bda9a225',
+   'DATA'),
+  ('.git\\objects\\5c\\04a00cdab8785bdfaa548e6fe67a1033260467',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\5c\\04a00cdab8785bdfaa548e6fe67a1033260467',
+   'DATA'),
+  ('.git\\objects\\5c\\5c5b61df0daba53dbe08bce30b817ce15fe30f',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\5c\\5c5b61df0daba53dbe08bce30b817ce15fe30f',
+   'DATA'),
+  ('.git\\objects\\5c\\d416f0820b903f910fd6f02795b991020c13c7',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\5c\\d416f0820b903f910fd6f02795b991020c13c7',
+   'DATA'),
+  ('.git\\objects\\5b\\0deb40aa09e9800486770b061cb7643635299a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\5b\\0deb40aa09e9800486770b061cb7643635299a',
+   'DATA'),
+  ('.git\\objects\\58\\2013069d105641a1b4420a358c0fb5a26f5f8d',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\58\\2013069d105641a1b4420a358c0fb5a26f5f8d',
+   'DATA'),
+  ('.git\\objects\\56\\adc4f326623897986778f13ab7727a57c1deed',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\56\\adc4f326623897986778f13ab7727a57c1deed',
+   'DATA'),
+  ('.git\\objects\\50\\e212ca51e070668fa41ec5655c9380ceb9473b',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\50\\e212ca51e070668fa41ec5655c9380ceb9473b',
+   'DATA'),
+  ('.git\\objects\\50\\edd0fd58a24db32c13175619f5ffca6dfac2c4',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\50\\edd0fd58a24db32c13175619f5ffca6dfac2c4',
+   'DATA'),
+  ('.git\\objects\\49\\235e885006d1cd90b7217ac6996c5786a92ce7',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\49\\235e885006d1cd90b7217ac6996c5786a92ce7',
+   'DATA'),
+  ('.git\\objects\\48\\12ff5b66924808fa24754ba45a187cb2f5b58a',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\48\\12ff5b66924808fa24754ba45a187cb2f5b58a',
+   'DATA'),
+  ('.git\\objects\\48\\42d8a0828600ee0620770988d8af2a36fef93f',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\48\\42d8a0828600ee0620770988d8af2a36fef93f',
+   'DATA'),
+  ('.git\\objects\\47\\c4d5ab78470b39957b3c5d1d5355c0f59a37de',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\47\\c4d5ab78470b39957b3c5d1d5355c0f59a37de',
+   'DATA'),
+  ('.git\\objects\\45\\9ec48d4bf21a77ab680b3f94a2357996e9450c',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\45\\9ec48d4bf21a77ab680b3f94a2357996e9450c',
+   'DATA'),
+  ('.git\\objects\\41\\833dd72b7a4c5be5e04b273132be94ee552b25',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\41\\833dd72b7a4c5be5e04b273132be94ee552b25',
+   'DATA'),
+  ('.git\\objects\\3d\\9dc63f4b69d441e04ee62fc9042986b5d7abd1',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\3d\\9dc63f4b69d441e04ee62fc9042986b5d7abd1',
+   'DATA'),
+  ('.git\\objects\\39\\88d85e54dc104fbcb9de3e4ce613d0985cb82e',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\39\\88d85e54dc104fbcb9de3e4ce613d0985cb82e',
+   'DATA'),
+  ('.git\\objects\\38\\d438aae79710d11e8b5e9968298be64d289218',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\38\\d438aae79710d11e8b5e9968298be64d289218',
+   'DATA'),
+  ('.git\\objects\\37\\068822251a83ee4d14e3410d5fdc8483e66e9b',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\37\\068822251a83ee4d14e3410d5fdc8483e66e9b',
+   'DATA'),
+  ('.git\\objects\\32\\b11402113b003448411e96a25d74bb8ca235e8',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\32\\b11402113b003448411e96a25d74bb8ca235e8',
+   'DATA'),
+  ('.git\\objects\\2e\\658bdb373fbb808c187ceef222f6ac8487b445',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\2e\\658bdb373fbb808c187ceef222f6ac8487b445',
+   'DATA'),
+  ('.git\\objects\\2a\\f9ed1d4ebe80893604571d176fda7ece98c172',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\2a\\f9ed1d4ebe80893604571d176fda7ece98c172',
+   'DATA'),
+  ('.git\\objects\\23\\45aa420f4bbdca5ca51fbb694703941490f52b',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\23\\45aa420f4bbdca5ca51fbb694703941490f52b',
+   'DATA'),
+  ('.git\\objects\\11\\b4c2a1ea1aed47f9428f595a1704fbad62f8ae',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\11\\b4c2a1ea1aed47f9428f595a1704fbad62f8ae',
+   'DATA'),
+  ('.git\\objects\\10\\94e42819bd27fedc05238944b58d4316119185',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\10\\94e42819bd27fedc05238944b58d4316119185',
+   'DATA'),
+  ('.git\\objects\\0f\\b24de73af5e412be368666caab5f0e4f65d248',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\0f\\b24de73af5e412be368666caab5f0e4f65d248',
+   'DATA'),
+  ('.git\\objects\\0e\\9621ba80ce3dd810d23b5f7e130eddc7a511f4',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\0e\\9621ba80ce3dd810d23b5f7e130eddc7a511f4',
+   'DATA'),
+  ('.git\\objects\\0b\\65f39b66005bc25cec43f4ba0ad755d4344b83',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\0b\\65f39b66005bc25cec43f4ba0ad755d4344b83',
+   'DATA'),
+  ('.git\\objects\\0a\\78c2e4378367709766ef8059ab470c30d38003',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\0a\\78c2e4378367709766ef8059ab470c30d38003',
+   'DATA'),
+  ('.git\\objects\\02\\3e810187de5f2edc4f64986a755073a69d106f',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\objects\\02\\3e810187de5f2edc4f64986a755073a69d106f',
+   'DATA'),
+  ('.git\\logs\\HEAD',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\logs\\HEAD',
+   'DATA'),
+  ('.git\\logs\\refs\\remotes\\origin\\master',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\logs\\refs\\remotes\\origin\\master',
+   'DATA'),
+  ('.git\\logs\\refs\\heads\\master',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\logs\\refs\\heads\\master',
+   'DATA'),
+  ('.git\\info\\exclude',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\info\\exclude',
+   'DATA'),
+  ('.git\\hooks\\applypatch-msg.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\applypatch-msg.sample',
+   'DATA'),
+  ('.git\\hooks\\commit-msg.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\commit-msg.sample',
+   'DATA'),
+  ('.git\\hooks\\post-update.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\post-update.sample',
+   'DATA'),
+  ('.git\\hooks\\pre-applypatch.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\pre-applypatch.sample',
+   'DATA'),
+  ('.git\\hooks\\pre-commit.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\pre-commit.sample',
+   'DATA'),
+  ('.git\\hooks\\pre-push.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\pre-push.sample',
+   'DATA'),
+  ('.git\\hooks\\pre-rebase.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\pre-rebase.sample',
+   'DATA'),
+  ('.git\\hooks\\pre-receive.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\pre-receive.sample',
+   'DATA'),
+  ('.git\\hooks\\prepare-commit-msg.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\prepare-commit-msg.sample',
+   'DATA'),
+  ('.git\\hooks\\update.sample',
+   'D:\\Desktop shortcuts\\Collection\\Python '
+   'Projects\\ProGame\\.git\\hooks\\update.sample',
+   'DATA')])

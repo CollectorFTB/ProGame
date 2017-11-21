@@ -7,6 +7,5 @@ def main():
     app = graphics.GameApp()
     app.run()
 
-
 if __name__ == "__main__":
     main()
