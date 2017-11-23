@@ -14,6 +14,7 @@ import cv2
 
 WIDTH = 0
 HEIGHT = 0
+GRID_SIZE = 15
 
 
 def configure(mode):
@@ -55,11 +56,9 @@ class ProGame(FloatLayout):
         self.down = False
         self.touch_list = list()
 
-        """
-        img = cv2.imread(file_path('white.png'), 1)
-        img = make_grid(img, 10)
-        cv2.imwrite(file_path('grid.png'), img)
-        """
+        img = cv2.imread(file_path('white'+str(HEIGHT)+'.png'), 1)
+        img = make_grid(img, GRID_SIZE)
+        cv2.imwrite(file_path('grid'+str(HEIGHT)+'.png'), img)
 
         # X button
         self.add_image(file_path("fileclose.png"), WIDTH-150, HEIGHT-150)
