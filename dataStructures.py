@@ -1,4 +1,4 @@
-from util import *
+import util
 from kivy.uix.image import Image
 
 
@@ -22,21 +22,32 @@ class Fraction:
             self.denominator = 0
 
     def expand(self, factor):
+        """
+        multiplies top and bootom by factor
+        :param factor: integer to expand numerator and denominator by 
+        :return: 
+        """
         if type(factor) is int:
             self.numerator *= factor
             self.denominator *= factor
 
     def simplify(self):
-        common_factor = gcd(self.numerator, self.denominator)
+        """
+        get simple form of the fraction
+        :return: whether something was changed
+        """
+        re = self.numerator
+        common_factor = util.gcd(self.numerator, self.denominator)
         self.numerator /= common_factor
         self.denominator /= common_factor
+        return self.numerator == re
 
     def __add__(self, other):
         re = 0
         if isinstance(other, int):
             re = Fraction(self.numerator + other*self.denominator, self.denominator)
         elif isinstance(other, Fraction):
-            lcm = (self.denominator * other.denominator) / gcd(self.denominator, other.denominator)
+            lcm = (self.denominator * other.denominator) / util.gcd(self.denominator, other.denominator)
             re = Fraction((lcm / self.denominator) * self.numerator + (lcm / other.denominator) * other.numerator, lcm)
         return re
 
@@ -45,10 +56,10 @@ class Fraction:
         if isinstance(other, int):
             re = Fraction(self.numerator * other, self.denominator)
         elif isinstance(other, Fraction):
-            re = Fraction(self.numerator * other.numerator, self.denominator * self.denominator)
+            re = Fraction(self.numerator * other.numerator, self.denominator * other.denominator)
         return re
 
-    def __div__(self, other):
+    def __truediv__(self, other):
         re = 0
         if isinstance(other, int):
             re = self.__mul__(Fraction(1, other))
@@ -78,7 +89,7 @@ class Fraction:
         return self
 
     def __idiv__(self, other):
-        f = self.__div__(other)
+        f = self.__truediv__(other)
         self.numerator = f.numerator
         self.denominator = f.denominator
         return self
@@ -92,6 +103,5 @@ class Fraction:
     def __str__(self):
         return str(self.numerator) + "/" + str(self.denominator)
 
-
-
-
+    def evaluate(self):
+        return float(self.numerator) / self.denominator

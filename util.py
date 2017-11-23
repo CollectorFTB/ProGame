@@ -1,12 +1,12 @@
+import dataStructures
 import numpy
-from dataStructures import NormImage
 
 
 def gcd(a, b):
     """
     gcd(54,24)=6
     gcd(7,15)=1
-    gcd(4,8)=4
+    gcd(4,8)=4  
     :param a: integer 
     :param b: integer
     :return: returns the greatest common divisor of a and b
@@ -79,10 +79,7 @@ def all_image_collide(touch, children):
     """
     re = list()
     for image in children:
-        if not isinstance(image, NormImage):
-            continue
-        x_collide = image.rx < touch.x < image.rx + image.texture.size[0]
-        y_collide = image.ry < touch.y < image.ry + image.texture.size[1]
-        if x_collide and y_collide:
-            re.append(image)
+        if isinstance(image, dataStructures.NormImage):
+            if image_collide(touch, image):
+                re.append(image)
     return re
