@@ -8,98 +8,107 @@ from util import *
 from dataStructures import NormImage
 import os.path
 import cv2
-# from copy import copy
 # import random
-# import math
-
-WIDTH = 0
-HEIGHT = 0
-GRID_SIZE = 15
 
 
-def configure(mode):
-    global WIDTH
-    global HEIGHT
-    if mode == 1:
-        Config.set('graphics', 'maximized', 1)
-        WIDTH = 1920
-        HEIGHT = 1080
-    else:
-        WIDTH = 1280
-        HEIGHT = 720
+def configure():
+    Config.set('graphics', 'maximized', 1)
     Config.set('graphics', 'resizable', 0)
     Config.set('graphics', 'fullscreen', 0)
-    Config.set('graphics', 'width', str(WIDTH))
-    Config.set('graphics', 'height', str(HEIGHT))
-
+    Config.set('graphics', 'width', 1920)
+    Config.set('graphics', 'height', 1080)
     Config.write()
 
 
 class ProGame(FloatLayout):
     def __init__(self, **kwargs):
+
         super(ProGame, self).__init__(**kwargs)
+
+        # class stuff
+        self.last_clicked = None
+        self.width = 1920
+        self.height = 1080
+        self.grid_size = 30
+        self.grid_width = 120  # self.width/(self.grid_size*4)
+        self.grid_height = 90  # self.height/(self.grid_size*3)
 
         # Request keyboard
         self.keyboard = Window.request_keyboard(self.keyboard_closed, self)
         self.keyboard.bind(on_key_down=self.on_keyboard_down)
 
+        ''' shouldn't happen (when source files are deleted)
         # If background doesnt exist, create it
-        if not os.path.exists('Entities/white'+str(HEIGHT)+'.png'):
-            background = create_background(WIDTH, HEIGHT, 1)
-            cv2.imwrite(file_path('white'+str(HEIGHT)+'.png'), background)
+        if not os.path.exists('Entities/white' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'):
+            background = create_background(self.width, self.HEIGHT, 1)
+            cv2.imwrite(file_path('white' + str(self.width) + 'x' + str(self.HEIGHT)+'.png'), background)
+
+        # If grid doesnt exist, create it
+        if not os.path.exists('Entities/grid' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'):
+            img = cv2.imread(file_path('white' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'), 1)
+            img = make_grid(img, self.grid_size)
+            cv2.imwrite(file_path('grid' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'), img)
+        '''
 
         # White background (temporary)
-        self.add_image(file_path('white'+str(HEIGHT)+'.png'), 0, 0)
-        self.background = self.children[0]
-
-        # Mouse movements
-        self.down = False
-        self.touch_list = list()
-
-        img = cv2.imread(file_path('white'+str(HEIGHT)+'.png'), 1)
-        img = make_grid(img, GRID_SIZE)
-        cv2.imwrite(file_path('grid'+str(HEIGHT)+'.png'), img)
+        self.background = self.normalize_image(file_path('grid' + str(self.width) + 'x' + str(self.height)+'.png'), 0, 0)
+        self.add_widget(self.background)
 
         # X button
-        self.add_image(file_path("fileclose.png"), WIDTH-150, HEIGHT-150)
-        self.close_button = self.children[0]
+        self.close_button = self.normalize_image(file_path("fileclose.png"), self.width-150, self.height-150)
+        self.add_widget(self.close_button)
 
-        self.last_clicked = None
+        # xd char
+        self.xd = self.normalize_image(file_path("xdpic.png"), 0, 0)
+        self.xd_appears = False
 
     def keyboard_closed(self):
         self.keyboard.unbind(on_key_down=self.on_keyboard_down)
         # Window.stop()  #  also works, not sure what the difference is ??
-        App.get_running_app().stop()
         self.keyboard = None
+        App.get_running_app().stop()
 
     def on_keyboard_down(self, keyboard, keycode, text, modifiers):
-        self.last_clicked = keycode
-        print(keycode)
+        key = keycode[1]
         if list(modifiers).count("ctrl") == 1 and list(modifiers).count("alt") == 1 and keycode[1] == 'd':
             keyboard.release()
+        if self.xd_appears:
+            if key in ['up', 'down', 'left', 'right']:
+                self.move_in_direction(self.xd, key)
         return True
 
-    def add_image(self, source, x, y,  *largs):
+    def normalize_image(self, source, x, y,  *largs):
         to_add = NormImage(source=source, x=x, y=y)
-        to_add.x += to_add.texture.size[0]/2  # corner image instead of center
-        to_add.y += to_add.texture.size[1]/2
-        to_add.x -= WIDTH/2  # fix FloatLayout inconsistency, normalize to corner of screen
-        to_add.y -= HEIGHT/2
+        self.fix_coordinates(to_add)
+        return to_add
 
-        self.add_widget(to_add)
-
-    def on_touch_move(self, touch):
-        if self.down:
-            Clock.schedule_once(partial(self.add_image, file_path("xd.png"), touch.x, touch.y))
+    def fix_coordinates(self, image):
+        image.x = image.rx + (image.texture.size[0] / 2)  # corner image instead of center
+        image.y = image.ry + (image.texture.size[1] / 2)
+        image.x = image.x - (self.width / 2)  # fix FloatLayout inconsistency, normalize to corner of screen
+        image.y = image.y - (self.height / 2)
 
     def on_touch_down(self, touch):
-        self.down = True
+        if not self.xd_appears:
+            self.xd.rx = int(self.grid_width * (touch.x // self.grid_width))
+            self.xd.ry = int(self.grid_height * (touch.y // self.grid_height))
+            self.fix_coordinates(self.xd)
+
+            self.add_widget(self.xd)
+            self.xd_appears = True
         if image_collide(touch, self.close_button):
             App.get_running_app().stop()
-        Clock.schedule_once(partial(self.add_image, file_path("xd.png"), touch.x, touch.y))
 
-    def on_touch_up(self, touch):
-        self.down = False
+    def move_in_direction(self, image, direction):
+        if direction is 'right':
+            image.rx = (image.rx + self.grid_width) % self.width
+        if direction is 'left':
+            image.rx = (image.rx - self.grid_width) % self.width
+        if direction is 'up':
+            image.ry = (image.ry + self.grid_height) % self.height
+        if direction is 'down':
+            image.ry = (image.ry - self.grid_height) % self.height
+        self.fix_coordinates(image)
 
 
 class GameApp(App):

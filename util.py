@@ -30,11 +30,18 @@ def file_path(file_name):
 
 
 def make_grid(img, n):
-    x = int(0.5+(float(len(img))/n))
-    y = x  # int((x*16.0/9.0)+0.5) # uncomment for rectangles
+    """
+    draw a grid on a given image every n pixels
+    :param img: picture to draw on 
+    :param n: grid size 
+    :return: image with grid drawn on it in place
+    """
+    x = 4*n
+    y = 3*n  # (len(img)//(n*9))*16
+
     for i in range(len(img)):
         for j in range(len(img[0])):
-            if i % x == 0 or j % y == 0:
+            if i % y == 0 or j % x == 0:
                 img[i][j] = [0, 0, 0]
     return img
 
@@ -83,3 +90,16 @@ def all_image_collide(touch, children):
             if image_collide(touch, image):
                 re.append(image)
     return re
+
+
+def print_points(*points):
+    """
+    
+    :param points: collection of pairs
+    :return: None
+    """
+    to_print = str()
+    for point in points:
+        to_print += '(' + str(point[0]) + ', ' + str(point[1]) + ')' + '  ####  '
+    print(to_print[:-6])
+

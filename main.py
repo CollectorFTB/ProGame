@@ -2,8 +2,7 @@ import graphics
 
 
 def main():
-    mode = 1
-    graphics.configure(mode)
+    graphics.configure()
     app = graphics.GameApp()
     app.run()
 
