@@ -2,11 +2,28 @@ import util
 from kivy.uix.image import Image
 
 
+class Animation:
+    def __init__(self, points, image):
+        self.iterator = 0
+        self.image = image
+        self.points = points
+
+    def next_frame(self, func):
+        self.image.rx, self.image.ry = self.points[self.iterator]  # get the current position of image
+        func(self.image)  # set the kivy xy to match real xy
+        self.iterator = (self.iterator + 1) % len(self.points)  # prepare next position
+
+
 class NormImage(Image):
     def __init__(self, **kwargs):
         super(NormImage, self).__init__(**kwargs)
         self.rx = kwargs['x']  # real world x
         self.ry = kwargs['y']  # real world y
+        self.i = 0
+        self.j = 0
+
+    def __copy__(self):
+        return NormImage(source=self.source, x=self.x, y=self.y)
 
 
 class Fraction:

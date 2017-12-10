@@ -1,5 +1,6 @@
 import dataStructures
 import numpy
+import math
 
 
 def gcd(a, b):
@@ -101,5 +102,37 @@ def print_points(*points):
     to_print = str()
     for point in points:
         to_print += '(' + str(point[0]) + ', ' + str(point[1]) + ')' + '  ####  '
-    print(to_print[:-6])
+    print(to_print[:-6])  # without ####
 
+
+def round_digits(number, digits):
+    """
+    rounds a number do n decimal places
+    :param number: number to round
+    :param digits: number of digits
+    :return: number rounded to digits decimal places if the result is exactly an integer, return an int
+    """
+    exponent = pow(10, digits)
+    result = int(number * exponent)
+    test = int(number) * exponent
+
+    if result == test:
+        return int(number)
+    return result / exponent
+
+
+def circle_points(center, radius, n):
+    """
+    get list of n points around center with radius r 
+    :param center: center of the circle
+    :param radius: radius of the circle
+    :param n: number of sides for the perfect polygon
+    :return: list of vertices of the polygon
+    """
+    points = list()
+    for i in range(n):
+        x = center[0] + radius * math.cos(i * 2 * (math.pi / n))
+        y = center[1] + radius * math.sin(i * 2 * (math.pi / n))
+        x, y = round_digits(x, 4), round_digits(y, 4)
+        points.append((int(x), int(y)))
+    return points

@@ -5,7 +5,8 @@ from kivy.clock import Clock
 from kivy.uix.floatlayout import FloatLayout
 from functools import partial
 from util import *
-from dataStructures import NormImage
+from dataStructures import NormImage, Animation
+from copy import copy
 import os.path
 import cv2
 # import random
@@ -22,7 +23,6 @@ def configure():
 
 class ProGame(FloatLayout):
     def __init__(self, **kwargs):
-
         super(ProGame, self).__init__(**kwargs)
 
         # class stuff
@@ -36,19 +36,6 @@ class ProGame(FloatLayout):
         # Request keyboard
         self.keyboard = Window.request_keyboard(self.keyboard_closed, self)
         self.keyboard.bind(on_key_down=self.on_keyboard_down)
-
-        ''' shouldn't happen (when source files are deleted)
-        # If background doesnt exist, create it
-        if not os.path.exists('Entities/white' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'):
-            background = create_background(self.width, self.HEIGHT, 1)
-            cv2.imwrite(file_path('white' + str(self.width) + 'x' + str(self.HEIGHT)+'.png'), background)
-
-        # If grid doesnt exist, create it
-        if not os.path.exists('Entities/grid' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'):
-            img = cv2.imread(file_path('white' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'), 1)
-            img = make_grid(img, self.grid_size)
-            cv2.imwrite(file_path('grid' + str(self.width) + 'x' + str(self.HEIGHT) + '.png'), img)
-        '''
 
         # White background (temporary)
         self.background = self.normalize_image(file_path('grid' + str(self.width) + 'x' + str(self.height)+'.png'), 0, 0)
@@ -77,25 +64,30 @@ class ProGame(FloatLayout):
                 self.move_in_direction(self.xd, key)
         return True
 
-    def normalize_image(self, source, x, y,  *largs):
+    def normalize_image(self, source, x, y,  *largs):  # image factory
         to_add = NormImage(source=source, x=x, y=y)
         self.fix_coordinates(to_add)
         return to_add
 
     def fix_coordinates(self, image):
-        image.x = image.rx + (image.texture.size[0] / 2)  # corner image instead of center
-        image.y = image.ry + (image.texture.size[1] / 2)
-        image.x = image.x - (self.width / 2)  # fix FloatLayout inconsistency, normalize to corner of screen
-        image.y = image.y - (self.height / 2)
+        image.x = image.rx + image.texture.size[0] / 2  # corner image instead of center
+        image.y = image.ry + image.texture.size[1] / 2
+        image.x = image.x - self.width / 2  # fix FloatLayout inconsistency, normalize to corner of screen
+        image.y = image.y - self.height / 2
+        image.i = int(self.grid_height * (image.y // self.grid_height))
+        image.j = int(self.grid_width * (image.x // self.grid_width))
 
     def on_touch_down(self, touch):
         if not self.xd_appears:
             self.xd.rx = int(self.grid_width * (touch.x // self.grid_width))
             self.xd.ry = int(self.grid_height * (touch.y // self.grid_height))
             self.fix_coordinates(self.xd)
-
             self.add_widget(self.xd)
             self.xd_appears = True
+        a = copy(self.xd)
+        self.add_widget(a)
+        self.play_animation(a, circle_points((touch.x, touch.y), 80, 25), 0.05)
+
         if image_collide(touch, self.close_button):
             App.get_running_app().stop()
 
@@ -110,7 +102,18 @@ class ProGame(FloatLayout):
             image.ry = (image.ry - self.grid_height) % self.height
         self.fix_coordinates(image)
 
+    def add_event(self, animation, dt):
+        animation.next_frame(self.fix_coordinates)
+
+    def play_animation(self, picture, points, refresh_rate):
+        Clock.schedule_interval(partial(self.add_event, Animation(points, picture)), refresh_rate)
+
 
 class GameApp(App):
     def build(self):
         return ProGame()
+
+
+
+
+
