@@ -2,3 +2,5 @@
 /__pycache__
 graphics.pyc
 util.pyc
+/virtenv
+/.vscode
