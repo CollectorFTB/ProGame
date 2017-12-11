@@ -1,7 +1,7 @@
 import dataStructures
 import numpy
 import math
-
+import os
 
 def gcd(a, b):
     """
@@ -27,7 +27,7 @@ def file_path(file_name):
     :param file_name: a specific file name (has to be inside the directory Entities
     :return: path inside the main directory to the file specified 
     """
-    return "Entities//" + file_name
+    return os.path.join("Entities",file_name) #os.path.join insures portability
 
 
 def make_grid(img, n):
@@ -112,12 +112,11 @@ def round_digits(number, digits):
     :param digits: number of digits
     :return: number rounded to digits decimal places if the result is exactly an integer, return an int
     """
+    if isinstance(number,int):
+        return int(number)
     exponent = pow(10, digits)
     result = int(number * exponent)
     test = int(number) * exponent
-
-    if result == test:
-        return int(number)
     return result / exponent
 
 

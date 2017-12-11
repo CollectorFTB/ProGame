@@ -44,7 +44,7 @@ class Fraction:
         :param factor: integer to expand numerator and denominator by 
         :return: 
         """
-        if type(factor) is int:
+        if isinstance(factor,int):
             self.numerator *= factor
             self.denominator *= factor
 
