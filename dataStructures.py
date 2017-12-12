@@ -3,6 +3,9 @@ from kivy.uix.image import Image
 
 
 class Animation:
+    """
+    ughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+    """
     def __init__(self, points, image):
         self.iterator = 0
         self.image = image
@@ -11,10 +14,15 @@ class Animation:
     def next_frame(self, func):
         self.image.rx, self.image.ry = self.points[self.iterator]  # get the current position of image
         func(self.image)  # set the kivy xy to match real xy
+        self.image.x -= self.image.texture.size[0] / 2  # center image instead of corner
+        self.image.y -= self.image.texture.size[1] / 2
         self.iterator = (self.iterator + 1) % len(self.points)  # prepare next position
 
 
 class NormImage(Image):
+    """
+          a normal image with what you would expect in rx,ry and what kivy will make of it in x,y 
+    """
     def __init__(self, **kwargs):
         super(NormImage, self).__init__(**kwargs)
         self.rx = kwargs['x']  # real world x
@@ -27,6 +35,9 @@ class NormImage(Image):
 
 
 class Fraction:
+    """
+    idk what this is even for ignore this completely
+    """
     def __init__(self, *args):
         if len(args) == 1:
             self.numerator = args[0]
@@ -44,7 +55,7 @@ class Fraction:
         :param factor: integer to expand numerator and denominator by 
         :return: 
         """
-        if isinstance(factor,int):
+        if isinstance(factor, int):
             self.numerator *= factor
             self.denominator *= factor
 

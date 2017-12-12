@@ -7,8 +7,6 @@ from functools import partial
 from util import *
 from dataStructures import NormImage, Animation
 from copy import copy
-import os.path
-import cv2
 # import random
 
 

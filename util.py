@@ -3,6 +3,7 @@ import numpy
 import math
 import os
 
+
 def gcd(a, b):
     """
     gcd(54,24)=6
@@ -27,7 +28,7 @@ def file_path(file_name):
     :param file_name: a specific file name (has to be inside the directory Entities
     :return: path inside the main directory to the file specified 
     """
-    return os.path.join("Entities",file_name) #os.path.join insures portability
+    return os.path.join("Entities", file_name)
 
 
 def make_grid(img, n):
@@ -110,13 +111,10 @@ def round_digits(number, digits):
     rounds a number do n decimal places
     :param number: number to round
     :param digits: number of digits
-    :return: number rounded to digits decimal places if the result is exactly an integer, return an int
+    :return: number rounded to digits decimal places
     """
-    if isinstance(number,int):
-        return int(number)
     exponent = pow(10, digits)
     result = int(number * exponent)
-    test = int(number) * exponent
     return result / exponent
 
 
