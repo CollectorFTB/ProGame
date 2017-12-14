@@ -40,7 +40,7 @@ class ProGame(FloatLayout):
         self.add_widget(self.background)
 
         # X button
-        self.close_button = self.normalize_image(file_path("fileclose.png"), self.width-150, self.height-150)
+        self.close_button = self.normalize_image(file_path("fileclose.png"), 14, 10, 1)
         self.add_widget(self.close_button)
 
         # xd char
@@ -62,7 +62,9 @@ class ProGame(FloatLayout):
                 self.move_in_direction(self.xd, key)
         return True
 
-    def normalize_image(self, source, x, y,  *largs):  # image factory
+    def normalize_image(self, source, x, y, *args):  # image factory
+        if len(args) > 0:
+            x, y = indexes_to_coordinates(y % 12, x % 16, self.grid_width, self.grid_height)
         to_add = NormImage(source=source, x=x, y=y)
         self.fix_coordinates(to_add)
         return to_add
@@ -84,7 +86,7 @@ class ProGame(FloatLayout):
             self.xd_appears = True
         a = copy(self.xd)
         self.add_widget(a)
-        self.play_animation(a, circle_points((touch.x, touch.y), 80, 25), 0.05)
+        self.play_animation(a, circle_points((touch.x, touch.y), 90, 2), 0.05)
 
         if image_collide(touch, self.close_button):
             App.get_running_app().stop()

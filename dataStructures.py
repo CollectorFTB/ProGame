@@ -14,8 +14,9 @@ class Animation:
     def next_frame(self, func):
         self.image.rx, self.image.ry = self.points[self.iterator]  # get the current position of image
         func(self.image)  # set the kivy xy to match real xy
-        self.image.x -= self.image.texture.size[0] / 2  # center image instead of corner
-        self.image.y -= self.image.texture.size[1] / 2
+
+        # self.image.x -= self.image.texture.size[0] / 2  # center image instead of corner
+        # self.image.y -= self.image.texture.size[1] / 2
         self.iterator = (self.iterator + 1) % len(self.points)  # prepare next position
 
 

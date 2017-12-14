@@ -128,8 +128,14 @@ def circle_points(center, radius, n):
     """
     points = list()
     for i in range(n):
-        x = center[0] + radius * math.cos(i * 2 * (math.pi / n))
-        y = center[1] + radius * math.sin(i * 2 * (math.pi / n))
+        x = center[0] + radius * math.cos((i * 2 * (math.pi / n)) + (math.pi / 2))
+        y = center[1] + radius * math.sin((i * 2 * (math.pi / n)) + (math.pi / 2))
         x, y = round_digits(x, 4), round_digits(y, 4)
         points.append((int(x), int(y)))
     return points
+
+
+def indexes_to_coordinates(i, j, col_size, row_size):
+    x = j * col_size
+    y = i * row_size
+    return x, y
