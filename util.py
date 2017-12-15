@@ -22,7 +22,7 @@ def gcd(a, b):
     return gcd(b, a % b)
 
 
-def file_path(file_name):
+def path(file_name):
     """
     finds the file path inside the project directory
     :param file_name: a specific file name (has to be inside the directory Entities
@@ -118,7 +118,7 @@ def round_digits(number, digits):
     return result / exponent
 
 
-def circle_points(center, radius, n):
+def circle_points(center, radius, n, direction):
     """
     get list of n points around center with radius r 
     :param center: center of the circle
@@ -127,15 +127,29 @@ def circle_points(center, radius, n):
     :return: list of vertices of the polygon
     """
     points = list()
+    const = 0
     for i in range(n):
-        x = center[0] + radius * math.cos((i * 2 * (math.pi / n)) + (math.pi / 2))
-        y = center[1] + radius * math.sin((i * 2 * (math.pi / n)) + (math.pi / 2))
+        x = center[0] + radius * math.cos((i * 2 * (math.pi / n)) + const)
+        y = center[1] + radius * math.sin((i * 2 * (math.pi / n)) + const)
         x, y = round_digits(x, 4), round_digits(y, 4)
         points.append((int(x), int(y)))
-    return points
+    if direction == 1:  # clockwise
+        return points
+    elif direction == 0:  # counter clockwise
+        return points[-1::-1]
+    else:
+        return None
 
 
 def indexes_to_coordinates(i, j, col_size, row_size):
+    """
+    unit conversion
+    :param i: given row 
+    :param j: given col
+    :param col_size: size of each col
+    :param row_size: size of each row
+    :return: x,y simulation of given i,j
+    """
     x = j * col_size
     y = i * row_size
     return x, y
