@@ -22,13 +22,14 @@ def gcd(a, b):
     return gcd(b, a % b)
 
 
-def path(file_name):
+def path(file_name, directory):
     """
     finds the file path inside the project directory
-    :param file_name: a specific file name (has to be inside the directory Entities
+    :param file_name: a specific file name (has to be inside the directory specified)
+    :param directory: a specific directory
     :return: path inside the main directory to the file specified 
     """
-    return os.path.join("Entities", file_name)
+    return os.path.join(directory, file_name)
 
 
 def make_grid(img, n):
@@ -124,6 +125,7 @@ def circle_points(center, radius, n, direction):
     :param center: center of the circle
     :param radius: radius of the circle
     :param n: number of sides for the perfect polygon
+    :param direction: clockwise or counter-clockwise
     :return: list of vertices of the polygon
     """
     points = list()

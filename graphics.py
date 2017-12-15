@@ -21,15 +21,37 @@ def configure():
 class Data:
     # temporary class, maybe stuff it into ProGame
     def __init__(self):
+        # unchangeable values
         self.last_clicked = None
         self.direction = 0
         self.width = 1920
         self.height = 1080
-        self.grid_size = 30
-        self.grid_width = 120  # self.width/(self.grid_size*4)
-        self.grid_height = 90  # self.height/(self.grid_size*3)
-        self.number_of_cols = 16
-        self.number_of_rows = 12
+
+        # changeable values
+        self.grid_size = 0
+        self.roundness = 0
+        self.radius = 0
+        self.speed = 0
+
+        # read changeable values
+        self.read_from_file()
+
+        # change runtime variables
+        self.speed /= 100
+        self.number_of_cols = self.width // (self.grid_size * 4)
+        self.number_of_rows = self.height // (self.grid_size * 3)
+        self.grid_width = self.width // self.number_of_cols
+        self.grid_height = self.height // self.number_of_rows
+
+    def read_from_file(self):
+        config_file = open(path('config.txt', 'Data'), 'r')
+        for line in config_file:
+            if line[0] == "~":
+                break
+            name, value = line.split(":")
+            self.__setattr__(name.lower(), int(value))
+
+        config_file.close()
 
 
 class ProGame(FloatLayout, Data):
@@ -44,15 +66,17 @@ class ProGame(FloatLayout, Data):
         self.keyboard.bind(on_key_down=self.on_keyboard_down)
 
         # White background (temporary)
-        self.background = self.normalize_image(path('white' + str(self.width) + 'x' + str(self.height)+'.png'), 0, 0)
+        self.background = \
+            self.normalize_image(path('white' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities'), 0, 0)
         self.add_widget(self.background)
 
         # X button
-        self.close_button = self.normalize_image(path("fileclose.png"), 14, 10, 1)
+        self.close_button = \
+            self.normalize_image(path("fileclose.png", 'Entities'), self.number_of_cols-1, self.number_of_rows-1, 1)
         self.add_widget(self.close_button)
 
-        # xd char
-        self.xd = self.normalize_image(path("xdpic.png"), 0, 0)
+        # xd pic
+        self.xd = self.normalize_image(path("xdpic.png", 'Entities'), 0, 0)
         self.xd_appears = False
         self.animations = list()
 
@@ -67,7 +91,7 @@ class ProGame(FloatLayout, Data):
         if list(modifiers).count("ctrl") == 1 and list(modifiers).count("alt") == 1 and keycode[1] == 'd':
             keyboard.release()
         if list(modifiers).count("ctrl") == 1 and keycode[1] == 'tab':
-            self.background.source = path('grid' + str(self.width) + 'x' + str(self.height)+'.png')
+            self.background.source = path('grid' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities')
         if self.xd_appears:
             if key in ['up', 'down', 'left', 'right']:
                 self.move_in_direction(self.xd, key)
@@ -100,7 +124,7 @@ class ProGame(FloatLayout, Data):
             a.x = touch.x
             a.y = touch.y
             self.fix_coordinates(a)
-            event = self.play_animation(a, circle_points((touch.x, touch.y), 200, 50, self.direction), 0.01)
+            event = self.play_animation(a, circle_points((touch.x, touch.y), self.radius, self.roundness, self.direction), self.speed)
             self.change_direction()
             self.animations.append((a, event))
             if image_collide(touch, self.close_button):
@@ -114,6 +138,11 @@ class ProGame(FloatLayout, Data):
                 self.animations.remove(self.animations[-1])
 
     def move_in_direction(self, image, direction):
+        """
+        move an image in a direction (left right up down)
+        :param image: image to move in direction
+        :param direction: one of left right up down 
+        """
         if direction is 'right':
             image.rx = (image.rx + self.grid_width) % self.width
         if direction is 'left':

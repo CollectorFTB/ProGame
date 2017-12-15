@@ -1,0 +1,7 @@
+Grid_Size:30
+Roundness:30
+Radius:30
+Speed:1
+~
+speed should be bigger than 1, counts in 1/100 of a second, 1 being the fastest and 100 being the slowest
+roundness is the number of corners a circle should have
