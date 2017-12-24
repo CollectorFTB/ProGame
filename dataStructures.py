@@ -15,7 +15,7 @@ class Animation:
         self.image.rx, self.image.ry = self.points[self.iterator]  # get the current position of image
         func(self.image)  # set the kivy xy to match real xy
 
-        self.image.x -= self.image.texture.size[0] / 2  # center image instead of corner
+        self.image.x -= self.image.texture. size[0] / 2  # center image instead of corner
         self.image.y -= self.image.texture.size[1] / 2
         self.iterator = (self.iterator + 1) % len(self.points)  # prepare next position
 
@@ -24,15 +24,20 @@ class NormImage(Image):
     """
     a normal image with what you would expect in rx,ry and what kivy will make of it in x,y 
     """
+    counter = 1
     def __init__(self, **kwargs):
+        self.name = kwargs['name']
+        kwargs.pop("name")
         super(NormImage, self).__init__(**kwargs)
         self.rx = kwargs['x']  # real world x
         self.ry = kwargs['y']  # real world y
         self.i = 0
         self.j = 0
+        self.number = NormImage.counter
+        NormImage.counter += 1
 
     def __copy__(self):
-        return NormImage(source=self.source, x=self.x, y=self.y)
+        return NormImage(source=self.source, x=self.x, y=self.y, name=self.name)
 
 
 class Fraction:

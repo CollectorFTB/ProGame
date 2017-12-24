@@ -23,6 +23,7 @@ class Data:
     def __init__(self):
         # unchangeable values
         self.last_clicked = None
+        self.menu_flag = True
         self.direction = 0
         self.width = 1920
         self.height = 1080
@@ -58,27 +59,24 @@ class ProGame(FloatLayout, Data):
     def __init__(self, **kwargs):
         super(ProGame, self).__init__(**kwargs)
 
-        # class stuff
-        # data members go here
+        self.animations = list()
 
         # Request keyboard
         self.keyboard = Window.request_keyboard(self.keyboard_closed, self)
         self.keyboard.bind(on_key_down=self.on_keyboard_down)
 
         # White background (temporary)
-        self.background = \
-            self.normalize_image(path('white' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities'), 0, 0)
-        self.add_widget(self.background)
+        background = self.normalize_image('background', path('white' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities'), 0, 0)
+        self.add_widget(background)
 
         # X button
-        self.close_button = \
-            self.normalize_image(path("fileclose.png", 'Entities'), self.number_of_cols-1, self.number_of_rows-1, 1)
-        self.add_widget(self.close_button)
+        close_button = self.normalize_image('close_button', path("fileclose.png", 'Entities'), self.number_of_cols-1, self.number_of_rows-1, 1)
+        self.add_widget(close_button)
 
         # xd pic
-        self.xd = self.normalize_image(path("xdpic.png", 'Entities'), 0, 0)
+        self.xd = self.normalize_image('xd', path("xdpic.png", 'Entities'), 0, 0)
+
         self.xd_appears = False
-        self.animations = list()
 
     def keyboard_closed(self):
         self.keyboard.unbind(on_key_down=self.on_keyboard_down)
@@ -91,16 +89,18 @@ class ProGame(FloatLayout, Data):
         if list(modifiers).count("ctrl") == 1 and list(modifiers).count("alt") == 1 and keycode[1] == 'd':
             keyboard.release()
         if list(modifiers).count("ctrl") == 1 and keycode[1] == 'tab':
-            self.background.source = path('grid' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities')
+            self.get_image('background').source = path('grid' + str(self.width) + 'x' + str(self.height)+'.png', 'Entities')
+        if list(modifiers).count("ctrl") == 1 and keycode[1] == 'spacebar':
+            self.menu_flag = False
         if self.xd_appears:
             if key in ['up', 'down', 'left', 'right']:
                 self.move_in_direction(self.xd, key)
         return True
 
-    def normalize_image(self, source, x, y, *args):  # image factory
+    def normalize_image(self, name, source, x, y, *args):  # image factory
         if len(args) > 0:
             x, y = indexes_to_coordinates(y % 12, x % 16, self.grid_width, self.grid_height)
-        to_add = NormImage(source=source, x=x, y=y)
+        to_add = NormImage(source=source, x=x, y=y, name=name)
         self.fix_coordinates(to_add)
         return to_add
 
@@ -113,6 +113,14 @@ class ProGame(FloatLayout, Data):
         image.j = int(self.grid_width * (image.x // self.grid_width))
 
     def on_touch_down(self, touch):
+        if touch.button == 'left' and image_collide(touch, self.get_image('close_button')):
+            App.get_running_app().stop()
+        if not self.menu_flag:
+            self.game_touch_down(touch)
+        elif self.menu_flag:
+            self.menu_touch_down(touch)
+
+    def game_touch_down(self, touch):
         if touch.button == 'left':
             if self.xd_appears:
                 self.xd.rx = int(self.grid_width * (touch.x // self.grid_width))
@@ -124,11 +132,10 @@ class ProGame(FloatLayout, Data):
             a.x = touch.x
             a.y = touch.y
             self.fix_coordinates(a)
-            event = self.play_animation(a, circle_points((touch.x, touch.y), self.radius, self.roundness, self.direction), self.speed)
+            event = self.play_animation(a, circle_points((touch.x, touch.y), self.radius, self.roundness, self.direction),
+                                        self.speed)
             self.change_direction()
             self.animations.append((a, event))
-            if image_collide(touch, self.close_button):
-                App.get_running_app().stop()
         if touch.button == "right":
             touch.multitouch_sim = False
             if len(self.animations) > 0:
@@ -136,6 +143,9 @@ class ProGame(FloatLayout, Data):
                 Clock.unschedule(event)
                 self.remove_widget(image)
                 self.animations.remove(self.animations[-1])
+
+    def menu_touch_down(self, touch):
+        pass
 
     def move_in_direction(self, image, direction):
         """
@@ -153,7 +163,7 @@ class ProGame(FloatLayout, Data):
             image.ry = (image.ry - self.grid_height) % self.height
         self.fix_coordinates(image)
 
-    def cycle_event(self, animation, dt):
+    def cycle_event(self, animation, _):
         animation.next_frame(self.fix_coordinates)
 
     def play_animation(self, picture, points, refresh_rate):
@@ -164,6 +174,11 @@ class ProGame(FloatLayout, Data):
     def change_direction(self):
         self.direction += 1
         self.direction %= 2
+
+    def get_image(self, name):
+        for image in self.children:
+            if image.name == name:
+                return image
 
 
 class GameApp(App):
